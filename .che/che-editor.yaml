@@ -1,0 +1,11 @@
+id: che-incubator/che-code/latest # VS Code
+# id: che-incubator/che-idea/latest # InteliJ
+
+#registryUrl: <url_of_custom_plugin_registry>
+
+override:
+  containers:
+    - name: che-code
+      memoryLimit: 2048Mi
+      cpuLimit: 1024m
+      cpuRequest: 512m
