@@ -1,6 +1,6 @@
 schemaVersion: 2.2.0
 metadata:
-  generateName: quarkus-api-example
+  generateName: openshift-devspaces-with-quarkus-api-example
 attributes:
   controller.devfile.io/storage-type: ephemeral
 components:
