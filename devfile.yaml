@@ -12,7 +12,8 @@ projects:
 components:
   - name: tools
     container:
-      image: quay.io/devfile/universal-developer-image:ubi8-latest
+      #image: quay.io/devfile/universal-developer-image:ubi8-latest
+      image: https://quay.io/devspaces/udi-rhel8:3.9
       env:
         - name: QUARKUS_HTTP_HOST
           value: 0.0.0.0
