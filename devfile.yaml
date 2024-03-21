@@ -1,8 +1,14 @@
 schemaVersion: 2.2.0
 metadata:
-  generateName: openshift-devspaces-with-openshift-devspaces-with-quarkus-api-example
+  generateName: openshift-devspaces-with-quarkus-api-example
 attributes:
   controller.devfile.io/storage-type: per-user
+projects:
+  - attributes: {}
+    name: openshift-devspaces-with-quarkus-api-example
+    git:
+      remotes:
+        origin: https://github.com/msoares94/openshift-devspaces-with-quarkus-api-example.git
 components:
   - name: tools
     container:
@@ -10,6 +16,8 @@ components:
       env:
         - name: QUARKUS_HTTP_HOST
           value: 0.0.0.0
+        - name: KUBEDOCK_ENABLED
+          value: true
       endpoints:
         - exposure: none
           name: debug
@@ -23,7 +31,7 @@ components:
       volumeMounts:
         - name: m2
           path: /home/user/.m2
-      memoryLimit: 6G
+      memoryLimit: 4G
       memoryRequest: 512Mi
       cpuRequest: 1000m
       cpuLimit: 4000m
@@ -43,7 +51,7 @@ components:
           value: /tmp/pgdata
   - name: m2
     volume:
-      size: 1G
+      size: 5G
 commands:
   - id: package
     exec:

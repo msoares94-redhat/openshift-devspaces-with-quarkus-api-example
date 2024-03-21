@@ -6,6 +6,7 @@ id: che-incubator/che-code/latest # VS Code
 override:
   containers:
     - name: che-code
-      memoryLimit: 2048Mi
-      cpuLimit: 1024m
-      cpuRequest: 512m
+      memoryLimit: 4G
+      memoryRequest: 512Mi
+      cpuRequest: 1000m
+      cpuLimit: 4000m
