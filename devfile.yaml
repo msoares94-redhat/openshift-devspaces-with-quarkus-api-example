@@ -8,7 +8,7 @@ projects:
     name: openshift-devspaces-with-quarkus-api-example
     git:
       remotes:
-        origin: https://github.com/msoares94/openshift-devspaces-with-quarkus-api-example.git
+        origin: https://github.com/redhat-lab-msoares94/openshift-devspaces-with-quarkus-api-example.git
 components:
   - name: tools
     container:
