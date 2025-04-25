@@ -8,6 +8,9 @@
       "sugatoray.vscode-git-extension-pack",
       "genuitecllc.codetogether",
       // Outher
-      "PKief.material-icon-theme"
+      "PKief.material-icon-theme",
+      "mtxr.sqltools-driver-pg",
+      // Remote SSH
+      "ms-vscode-remote.remote-ssh",
     ]
 }
