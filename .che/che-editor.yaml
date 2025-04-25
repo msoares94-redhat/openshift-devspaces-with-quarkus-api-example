@@ -1,8 +1,7 @@
 id: che-incubator/che-code/latest # VS Code
 # id: che-incubator/che-idea/latest # InteliJ
 
-#registryUrl: https://open-vsx.org
-registryUrl: https://marketplace.visualstudio.com/vscode
+registryUrl: https://open-vsx.org
 
 override:
   containers:
