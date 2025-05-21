@@ -10,7 +10,5 @@
       // Outher
       "PKief.material-icon-theme",
       "mtxr.sqltools-driver-pg",
-      // Remote SSH
-      "ms-vscode-remote.remote-ssh",
     ]
 }
